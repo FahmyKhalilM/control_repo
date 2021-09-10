@@ -7,4 +7,8 @@ node default {
   file {'/root/README':
        owner   => 'root',
   }
+   }
+  file {'/root/kimo':
+       owner   => 'root',
+  }
 }
