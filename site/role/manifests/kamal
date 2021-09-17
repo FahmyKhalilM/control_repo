@@ -1,0 +1,4 @@
+class role::kamal {
+  include profile::base
+  include profile::app
+}
